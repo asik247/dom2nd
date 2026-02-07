@@ -19,8 +19,19 @@ let setAtt = () => {
    
 }
 // Inner html added code here now
-let boxDiv = document.getElementById("box");
-boxDiv.innerHTML = "<h1>js boss</h1>";
-console.log(boxDiv);
+// let boxDiv = document.getElementById("box");
+// boxDiv.innerHTML = "<h1>js boss</h1>";
+// boxDiv.innerHTML = "<p>This is paragraph tag</p>";
+// boxDiv.innerHTML = "<li>This is paragraph tag</li>";
+// console.log(boxDiv);
 
 
+// Task for me
+let textChange = document.getElementById("textChange");
+// console.log(textChange);
+textChange.addEventListener("click",function(){
+    // console.log("btn clicked");
+    let head2 = document.getElementById("head2");
+    // console.log(head2);
+    head2.innerText = "Js Text Now:-"
+})
