@@ -10,13 +10,13 @@ let src = image.getAttribute('src')
 let setAtt = () => {
     // console.log("btn clicked");
     let image = document.getElementById("catImg");
-    if(image.getAttribute("src")==="/assest/cat.jpg"){
-         image.setAttribute("src", "/assest/dog.jpg")
-    }else{
-         image.setAttribute("src", "/assest/cat.jpg")
+    if (image.getAttribute("src") === "/assest/cat.jpg") {
+        image.setAttribute("src", "/assest/dog.jpg")
+    } else {
+        image.setAttribute("src", "/assest/cat.jpg")
 
     }
-   
+
 }
 // Inner html added code here now
 // let boxDiv = document.getElementById("box");
@@ -29,9 +29,17 @@ let setAtt = () => {
 // Task for me
 let textChange = document.getElementById("textChange");
 // console.log(textChange);
-textChange.addEventListener("click",function(){
+textChange.addEventListener("click", function () {
     // console.log("btn clicked");
     let head2 = document.getElementById("head2");
     // console.log(head2);
     head2.innerText = "Js Text Now:-"
 })
+// Tommorow Topic code here now:
+// Adding a Css Class:
+function list  ()  {
+    let torrm = document.getElementById("torrm");
+    torrm.classList.add("tommorow")
+
+
+}
