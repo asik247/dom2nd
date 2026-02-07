@@ -10,7 +10,11 @@ let src = image.getAttribute('src')
 let setAtt = () => {
     // console.log("btn clicked");
     let image = document.getElementById("catImg");
-    if(image)
-    image.setAttribute("src", "/assest/dog.jpg")
+    if(image.getAttribute("src")==="/assest/cat.jpg"){
+         image.setAttribute("src", "/assest/dog.jpg")
+    }else{
+         image.setAttribute("src", "/assest/cat.jpg")
 
+    }
+   
 }
