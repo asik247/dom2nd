@@ -18,3 +18,9 @@ let setAtt = () => {
     }
    
 }
+// Inner html added code here now
+let boxDiv = document.getElementById("box");
+boxDiv.innerHTML = "<h1>js boss</h1>";
+console.log(boxDiv);
+
+
