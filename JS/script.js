@@ -1,2 +1,16 @@
- let head = document.getElementById("head");
- console.log(head.style.color='blue');
+let head = document.getElementById("head");
+//  console.log(head.style.color='blue');
+//  GetAttribute code here now:
+let image = document.getElementById("catImg");
+let src = image.getAttribute('src')
+// console.log(src);
+
+
+// set Attribue code
+let setAtt = () => {
+    // console.log("btn clicked");
+    let image = document.getElementById("catImg");
+    if(image)
+    image.setAttribute("src", "/assest/dog.jpg")
+
+}
