@@ -56,3 +56,27 @@ let toggle = ()=>{
     // console.log('toggle btn clickded');
     document.body.classList.toggle("dark")
 }
+//  <!-- ParentNode,ChildNode,creatElement,appendChild 4 topic code here now -->
+let container = document.getElementById("container");
+// console.log(container);
+let containerAllChild = container.childNodes;
+// console.log(containerAllChild);
+let ulContainer = document.getElementById("ulContainer");
+// console.log(ulContainer.childNodes[1]);
+let paraText = document.getElementById("paraText");
+console.log(paraText.parentNode);
+
+
+let liCreated = document.createElement("li");
+// console.log(liCreated);
+let liInnerText = liCreated.innerText = 'end the list items';
+// console.log(liInnerText);
+// console.log(liCreated);
+let parent = ulContainer.appendChild(liCreated);
+// console.log(parent);
+/**
+ * 1.created element
+ * 2.set innterText or innerHtml
+ * 3.parent sellected
+ * 4.appendChild this parent
+ */
