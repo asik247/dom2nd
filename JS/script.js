@@ -51,3 +51,8 @@ removed.addEventListener("click",function(){
     // console.log(para);
     para.classList.remove("para2")
 })
+
+let toggle = ()=>{
+    // console.log('toggle btn clickded');
+    document.body.classList.toggle("dark")
+}

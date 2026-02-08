@@ -16,3 +16,7 @@
     font-size: 25px;
     font-weight: bold;
 }
+.dark{
+    background-color: black;
+    color: whitesmoke;
+}
