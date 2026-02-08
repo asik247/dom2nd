@@ -10,3 +10,9 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+/* Remove ClassList code here  now: */
+.para2{
+    color: lightgreen;
+    font-size: 25px;
+    font-weight: bold;
+}

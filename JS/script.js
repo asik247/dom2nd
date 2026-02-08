@@ -39,7 +39,15 @@ textChange.addEventListener("click", function () {
 // Adding a Css Class:
 function list  ()  {
     let torrm = document.getElementById("torrm");
+    console.log(torrm);
     torrm.classList.add("tommorow")
 
-
 }
+// Removing a css class style
+let removed = document.getElementById("removed");
+removed.addEventListener("click",function(){
+    // console.log("btn Clicked now");
+    let para = document.querySelector(".para2");
+    // console.log(para);
+    para.classList.remove("para2")
+})
